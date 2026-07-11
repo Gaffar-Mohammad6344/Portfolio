@@ -7,7 +7,7 @@ import {
 import { FiLoader, FiCheckCircle, FiXCircle } from "react-icons/fi";
 
 // ── Change this to your deployed backend URL in production ──
-const API_URL = import.meta.env.VITE_API_URL || "http://localhost:5000";
+const API_URL = import.meta.env.VITE_API_URL;
 
 // ── Input component ─────────────────────────────────────────
 const Field = ({ label, error, children }) => (
